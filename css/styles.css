@@ -211,11 +211,16 @@ p {
 }
 
 /*выравниваем меню*/
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
 .menu {
     display: inline-flex;
 }
 .menu-item:not(:last-child) {
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 /*убирает точки из списка*/
